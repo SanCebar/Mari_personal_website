@@ -7,6 +7,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+img {
+    min-height: 200px;
+    max-height: 400px; 
+}
+
 #header {
     font-family: sans-serif;
     font-size: 24pt;
@@ -15,12 +20,14 @@ body {
     padding: 10px;
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
+    align-self: flex-start;
 }
 
 #Mari {
-    height: 300px ;
-    padding-left: 20px;
+    height: auto;
+    max-width: 30%;
+    border-radius: 75px;
+    border: solid #F4F1BB;
     display: flex;
     flex-shrink: 1;
 }
@@ -38,14 +45,12 @@ h2 {
 #portfolio {
     margin-top: 8px;
     margin-bottom: 8px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
+    padding: 20px;
 }
 
-img {
-    min-height: 200px;
-    max-height: 400px; 
+#port_cards {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .port_card {
