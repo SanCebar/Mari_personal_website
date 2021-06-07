@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+    border-width: 0em;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    font-family: sans-serif;
+    font-size: 24pt;
+    color: #F4F1BB;
+    background-color: #ED6A5A;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#Mari {
+    height: 300px ;
+    padding-left: 20px;
+    display: flex;
+    flex-shrink: 1;
+}
+
+#biography {
+    background-color: #9BC1BC;
+    color: black;
+}
+
+h2 {
+    color: black;
+}
