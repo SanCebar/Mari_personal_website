@@ -28,8 +28,26 @@ body {
 #biography {
     background-color: #9BC1BC;
     color: black;
+    padding: 20px;
 }
 
 h2 {
     color: black;
+}
+
+#portfolio {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+img {
+    min-height: 200px;
+    max-height: 400px; 
+}
+
+.port_card {
+    padding: 10px;
+    border: solid #5CA4A9;
 }
